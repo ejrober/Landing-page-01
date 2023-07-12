@@ -33,12 +33,15 @@
 
   }
 
+  .header-title{
+    font-weight: bolder;
+  }
+
   .header-main{
     color: #f9faf8;
     margin-left: 200px;
     font-size: 48px;
     max-width: 300px;
-    font-weight: bolder;
     max-height: 100px;
   }
 
@@ -49,11 +52,13 @@
     min-height: 100px;
   }
 
-  .sign-up{
-    color: #e5e7eb;
-    font-size: 18px;
-    max-width: 300px;
-    max-height: 200px;
+  button{
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white; 
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 24px;
   }
 
   .place-holder{
@@ -140,3 +145,26 @@
     margin-left: 500px;
     font-weight: bold;
   }
+
+  .Call-to-action{
+    background-color: rgb(47, 130, 255);
+    border: 5px solid rgb(47, 130, 255);
+    border-radius: 10px;
+    margin: 90px 160px 90px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .Action-title{
+    color: #e5e7eb;
+    font-size: larger;
+    font-weight: bolder;
+  }
+
+  .Action-content{
+    color: #e5e7eb;
+  }
+
